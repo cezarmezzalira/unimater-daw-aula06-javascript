@@ -52,7 +52,7 @@ for (let i = 0; i < items.length; i++) {
   button.setAttribute("class", "button")
 
   const link = document.createElement("a")
-  link.setAttribute("href", "https://google.com")
+  link.setAttribute("href", "./receitas/fuba.html")
   link.innerText = item.msg_botao
   button.appendChild(link)
   divCard.appendChild(button)
